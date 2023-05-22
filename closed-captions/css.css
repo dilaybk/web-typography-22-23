@@ -1,14 +1,43 @@
-/* **********************************************
+/*
+
+SET-UP CSS:
+1. Basic Mechanics
+2. Voices
+3. First <p> styling
+4. Sounds
+5. Basic Layout
+6. Keyframes
+
+*/
+
+
+/*VRAGEN:
+ - Bepaalde voicelines wil ik een andere kleur geven maar hij veranderd niet
+ - Het witte dat steeds groter wordt heeft een rare transitie in het begin
+ - Video (chatter) laten afspelen op het juiste moment en weer weghalen
+*/
+
+
+
+
+/***********************************************
 Basic mechanics
 Hide all paragraphs by default
 Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
-********************************************** */
+***********************************************/
+
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	font-size: 1.1em;
+	color: white;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 80%;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -17,12 +46,145 @@ Feel free to adjust the defaults to your needs.
 	transition: .2s;
 	opacity: 0;
 }
+
+
+
+
+
+
+/****************/
+/**** VOICES ****/
+/****************/
+
+
 .voice1 {
+	font-family: "Brenner Mono", monospace;
+	font-style: normal;
+	font-weight: 600;
+
+}
+
+.voice1:nth-of-type(1) {
 	font-style: italic;
 }
+
+.voice1:nth-of-type(2) {
+	font-style: italic;
+}
+
+
+/*Font color black maar hij wil niet en ik snap niet waarom*/
+
+p.voice1:nth-of-type(18) {
+	color: black;
+}
+
+p.voice1:nth-of-type(19) {
+	color: black;
+}
+
+p.voice1:nth-of-type(20) {
+	color: black;
+}
+
+p.voice1 p:nth-of-type(21) {
+	color: black;
+}
+
+p.voice1:nth-of-type(22) {
+	color: black;
+}
+
+p.voice1:nth-of-type(23) {
+	color: black;
+}
+
+p.voice1:nth-of-type(24) {
+	color: black;
+}
+
+p.voice1:nth-of-type(25) {
+	color: black;
+}
+
+p.voice1:nth-of-type(26) {
+	color: black;
+}
+
+p.voice1:nth-of-type(27) {
+	color: black;
+}
+
+p.voice1:nth-of-type(28) {
+	color: black;
+}
+
+p.voice1:nth-of-type(29) {
+	color: black;
+}
+
+p.voice1:nth-of-type(30) {
+	color: black;
+}
+
+p.voice1:nth-of-type(31) {
+	color: black;
+}
+
+
+
 .voice2 {
+	font-family: "Brenner Sans";
+	font-weight: normal;
+
+}
+
+
+.voice2:nth-of-type(1) {
+	font-style: italic;
+}
+
+.voice2:nth-of-type(2) {
+	font-style: italic;
+}
+
+.voice2:nth-of-type(3) {
+	font-style: italic;
+}
+
+.voice2:nth-of-type(4) {
+	font-style: italic;
+}
+
+
+/*deze wilt niet italic worden en idk why*/
+
+.voice2:nth-of-type(5) {
+	font-style: italic;
+}
+
+
+
+/*"Fuck off skin job"*/
+
+.voice3 {
+	font-family: "Brenner Sans Condensed";
+	font-style: italic;
+
+	letter-spacing: .6em;
+	animation: foff 1s linear forwards;
+
+}
+
+
+/*Deze mag nog anders*/
+.voice4 {
+	font-family: "Brenner Sans";
 	font-weight: bold;
 }
+
+
+
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -32,109 +194,293 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
+
+
+
+
 .p0 span {
 	opacity: 0;
-	font-family: brenner;
+	font-family: "Brenner";
 }
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	font-weight: 200;
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
 	margin-right: -.25em;
-	font-weight: 400;
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .5s;
 	margin-right: -.25em;
-	font-weight: 600;
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(4) {
 	opacity: 1;
 	transition: 0s .7s;
 	margin-right: -.25em;
-	font-weight: 800;
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(5) {
 	opacity: 1;
 	transition: 0s 1.1s;
 	margin-right: -.25em;
-	font-family: "brenner sans";
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 1.4s;
 	margin-right: -.25em;
-	font-family: "brenner display";
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.7s;
 	margin-right: -.25em;
-	font-family: "brenner script";
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	transition: 0s 2s;
-	font-family: "brenner script";
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	font-family: "brenner mono";
+	font-family: "Brenner Mono";
 }
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
-	font-family: "brenner slab";
+	font-family: "Brenner Mono";
 }
-
+/* 
 .p1.on {
 	background: hotpink;
 	color: red;
-}
+} */
+
+
+
+
 
 /* **********************************************
-Sounds.
+SOUNDS
 	You can style the whole body, or you can 
 	style anything within the body the moment
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	background: hotpink;
+
+
+
+/*Red circle*/
+
+.sound1::before {
+	animation-name: redEEEE;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	position: absolute;
+	top: 70%;
+	z-index: -1;
 }
+
+
+
+/*SIREN*/
+
+.sound2 {
+	animation: siren 1s linear;
+}
+
+
+
+/*kuzzzz... 1*/
+
+.sound3::before {
+	content: "";
+	display: block;
+	width: 10em;
+	height: 10em;
+
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,0) 60%);
+
+	animation:moveLeftToRight 1.5s linear 1 forwards;
+	transition: all 1s ease;
+	position: absolute;
+	left: 0;
+}
+
+.sound3::after {
+	opacity: 0;
+}
+
+
+
+/*DUUUUNN 1*/
+
+.sound4::before {
+	content: "";
+	display: block;
+	width: 10em;
+	height: 10em;
+
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,0) 60%);
+	animation: scaleUp .2s linear forwards, circlegone 1s linear forwards;
+	position: absolute;
+	right: 0;
+	left: 80%;
+
+}
+
+.sound4::after {
+	opacity: 0;
+}
+
+
+
+/*kuuuzzz... 2*/
+
+.sound5::before {
+	content: "";
+	display: block;
+	width: 10em;
+	height: 10em;
+
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,0) 60%);
+
+	animation:moveLeftToRight 1.5s linear 1 forwards;
+	transition: all 1s ease;
+	position: absolute;
+	left: 0;
+}
+
+/*DUUUUUUNN 2*/
+
+.sound6::before {
+	content: "";
+	display: block;
+	width: 10em;
+	height: 10em;
+
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,0) 60%);
+	animation: scaleUp .2s linear, circlegone 1s linear forwards;;
+	position: absolute;
+	right: 0;
+	left: 80%;
+
+}
+
+
+/*kuuuuzzzz 3*/
+
+.sound7::before {
+	content: "";
+	display: block;
+	width: 10em;
+	height: 10em;
+
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,0) 60%);
+
+	animation:moveLeftToRight 1.5s linear 1 forwards;
+	transition: all 1s ease;
+	position: absolute;
+	left: 0;
+}
+
+
+/*DUUUUUUNN 3*/
+
+.sound8::before {
+	content: "";
+	display: block;
+	width: 10em;
+	height: 10em;
+
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,0) 60%);
+	animation: scaleUp .2s linear, circlegoneloud 1.2s linear forwards;
+	position: absolute;
+	right: 0;
+	left: 80%;
+
+}
+
+
+
+.sound9::before {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	width: 1em;
+	height: 3em;
+	box-shadow: 0 0 50em 10em rgb(255 255 255 / 1);
+
+	animation: whiter 44s linear forwards;
+
+	z-index: -1;
+}
+
+
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 #video-mask {
+/* .sound1 #video-mask {
 	box-shadow: 2em 2em 2em olivedrab;
-}
+} */
 
 
-/* **********************************************
+
+
+/************************************************
 Basic layout.
 	Place the video in the center of the page.
-*********************************************  */
+*************************************************/
+
+
+/* #chatter {
+	position: absolute;
+	left: 0;
+	top: -5%;
+	width: 110%;
+	height: 110%;
+	z-index: -2;
+} */
+
 
 body {
 	display: grid;
 	height: 100vh;
 	margin: 0;
 	justify-content: center;
+
+	background-color: rgb(33 50 52);
+
+	animation: bgmusic 72s linear forwards infinite; 
+
+	box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
 }
+
+
 #video-container {
 	margin: auto;
 }
+
+
 #video-mask {
 	aspect-ratio: 240.5/100;
 	display: grid;
@@ -143,8 +489,366 @@ body {
 	transition: 1s;
 }
 
+
 iframe {
 	width: 80vw;
 	height: 53.33333333vw;
 	margin-top: -0.35vw;
+}
+
+
+
+
+
+
+/*********************/
+/***** KEYFRAMES *****/
+/*********************/
+
+
+@keyframes foff {
+	0% {
+		font-size: 1em;
+	}
+
+	100% {
+		font-size: 1.2em;
+	}
+}
+
+@keyframes blacktoblue {
+	0% {
+		background-color: rgb(0 0 0/100%);
+	}
+
+	100% {
+		background-color: rgb(33 50 52/100%);
+	}
+
+}
+
+
+@keyframes redEEEE {
+	0%, 99% { /*van 0 tot 99% blijft hij roze*/
+		background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,1) 59%);
+	}
+	100% {
+		background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,1) 59%);
+	}
+}
+
+
+
+@keyframes siren {
+	0% { 
+		background-image: linear-gradient(90deg, rgb(204 0 0 / 50%), rgb(0 69 143/50%),rgb(204 0 0 / 50%), rgb(0 69 143/50%));
+		background-size: 200% 200%;
+		background-position: 100% 0%; 
+	}
+	100% { 
+		background-image: linear-gradient(90deg, rgb(204 0 0 / 50%), rgb(0 69 143/50%),rgb(204 0 0 / 50%), rgb(0 69 143/50%));
+		background-size: 200% 200%;
+		background-position: 0% 0%; 
+	}
+
+}
+
+
+@keyframes moveLeftToRight {
+	0%   { 
+		left: -10em; 
+	}
+
+	100% { 
+		left: 80%; 
+	}
+}
+
+
+@keyframes scaleUp {
+	0%, 99% {
+		transform: scale(1);
+		z-index: -1;
+	}
+	100% {
+		transform: scale(2.2);
+		z-index: -1;
+	}
+}
+
+@keyframes circlegone {
+
+	0%, 99% {
+		transform: scale(2.2);
+	}
+
+	100% {
+		transform: scale(0);
+	}
+}
+
+
+@keyframes circlegoneloud {
+
+	0%, 99% {
+		transform: scale(3);
+	}
+
+	100% {
+		transform: scale(0);
+	}
+}
+
+
+@keyframes whiter {
+	0% {
+		box-shadow: 0 0 50em 10em rgb(255 255 255 / 1);
+		opacity: 0.4;
+	}
+
+	5% {
+		opacity: .5;
+	}
+
+	7% {
+		opacity: .6;
+	}
+
+	10% {
+		opacity: .7;
+	}
+
+	12% {
+		opacity: .8;
+	}
+
+	15% {
+		opacity: .7;
+	}
+
+	17% {
+		opacity: .8;
+	}
+
+	20% {
+		opacity: .9;
+	}
+
+	22% {
+		opacity: 1;
+	}
+
+	25% {
+		opacity: .85;
+	}
+
+	27% {
+		opacity: .7;
+	}
+
+	30% {
+		opacity: .8;
+	}
+
+	32% {
+		opacity: .9;
+	}
+
+	35% {
+		opacity: 1;
+	}
+
+	37% {
+		opacity: .9;
+	}
+
+	40% {
+		opacity: .7;
+	}
+
+	43% {
+		opacity: .8;
+	}
+
+	45% {
+		opacity: .9;
+	}
+
+	47% {
+		opacity: .8;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	53% {
+		opacity: .8;
+	}
+
+	55% {
+		opacity: 1;
+	}
+
+	57% {
+		opacity: .8;
+	}
+
+	60% {
+		opacity: 1;
+	}
+
+	63% {
+		opacity: .8;
+	}
+
+	65% {
+		opacity: .9;
+	}
+
+	67% {
+		opacity: .8;
+	}
+
+	70% {
+		opacity: .9;
+	}
+
+	77% {
+		opacity: .8;
+	}
+
+	75% {
+		opacity: .9;
+	}
+
+	77% {
+		opacity: 1;
+	}
+
+	80% {
+		opacity: .8;
+	}
+
+	87% {
+		opacity: 1;
+	}
+
+	85%{
+		opacity: .8;
+	}
+
+	87% {
+		opacity: .9;
+	}
+
+	90% {
+		opacity: .8;
+	}
+
+	95% {
+		opacity: .9;
+	}
+
+	99% {
+		box-shadow: 0 0 50em 50em rgb(255 255 255 / 1);
+		opacity: 1;
+	}
+
+	100% {
+		box-shadow: 0 0 50em 50em rgb(255 255 255 / 0);
+		opacity: 0;
+	}
+}
+
+
+
+@keyframes bgmusic {
+	0% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	3% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0%);
+	}
+
+	5% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	8% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0%);
+	}
+
+	10% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	15% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+	}
+
+	20% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	25% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+	}
+
+	30% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	35% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+	}
+
+	40% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	45% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+	}
+
+	50% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	55% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+	}
+
+	60% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	70% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+	}
+
+	75% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	80% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+	}
+
+	85% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	90% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+	}
+
+	95% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+	}
+
+	100% {
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+	}
 }
