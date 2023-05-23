@@ -297,9 +297,11 @@ Youtube video voor voorbeeld:
 # Reflectie
 Het was voor mij best moeilijk om het 'extreem' vorm te geven, omdat het zo'n langzame, mysterieuze en dramatische film was wilde ik dit ook zo behouden. 
 
-Ik vond het wel een leuke opdracht waarbij ik meer ging opletten naar geluiden in films en programma's. Bijna elk geluid geeft een groot effect aan elke scene, terwijl het je misschien vaak niet opvalt. 
-
 Ik heb niet teveel tijd kunnen besteden aan de tekst, omdat ik dit best moeilijk vond. Brenner heeft veel opties maar het was toch moeilijk om het te matchen met de vibe van de film. Ik vond het ook moeilijk om animaties bij de tekst te bedenken, want het moet leesbaar zijn, maar toch iets meer doen dan alleen informatie overbrengen. 
 Hier zou ik ook meer tijd aan besteden als ik die had. 
 
+Het was wel een leuke opdracht waarbij ik meer ging opletten naar geluiden in films en programma's. Bijna elk geluid geeft een groot effect aan elke scene, terwijl het je misschien vaak niet opvalt. 
+
 Deze opdracht liet me eigenlijk een beetje denken aan licht animaties of een immersive environment project maar dan heel klein en kort. Het was uitdagend om een keertje 'outside the box' te ontwerpen.
+
+Uiteindelijk ben ik wel trots op wat ik in zo'n korte tijd heb kunnen maken en ik denk ook dat eind ontwerp ook zonder geluid fijn bekeken kan worden.
