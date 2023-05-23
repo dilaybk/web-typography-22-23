@@ -180,8 +180,23 @@ Ik heb ook geprobeerd om het alleen op .voice3 te doen en alleen op .p6, maar da
 
 
 ## Tweede Fragment
-Ook heb ik geprobeerd om het tweede fragment te 
+Ook heb ik geprobeerd om het tweede fragment te animeren. Hierbij wilde ik weer soort van het knipperende effect gebruiken en dat het steeds erger werd, maar dan met een bijna wit gekleurde bal met een groene tint zoals in de film wanneer hij de baseline test doet en een witte achtergrond. De bal zou dan steeds sneller 'stuiteren' naar verschillende kanten van het scherm.
+
+Omdat ik steeds `::before` had gebruikt om een cirkel toe te voegen aan de CSS, dacht ik eraan om een `<div>` toe te voegen in de html zodat ik het misschien iets makkelijker kon animeren. Dit maakte uiteindelijk geen verschil en het werkte gewoon niet.
+
+<details>
+<summary> :shipit: Code van de HTML div & CSS </summary>
+<img src="./images/divball.png" alt="code van div">
+<img src="./images/intenseball.png" alt="code van div css">
+</details>
+
+Dus toen heb ik toch weer de manier gebruikt die ik eerst had ( met `content: ""` en `display: block`).
+Dat zag er zo uit (& het bewoog):
+
+<img src="./images/colorful.png" alt="kleurrijke achtergrond voor fragment">
 
 
-# Oplevering
+
+
+# Reflectie
 Het was voor mij best moeilijk om het 'extreem' vorm te geven, omdat het zo'n langzame, mysterieuze en dramatische film was wilde ik dit ook zo behouden. 
