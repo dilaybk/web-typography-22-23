@@ -11,5 +11,6 @@ sounds = [
 	31,		// sound 7 (kuzzzzz-... louder 3)
 	32,		// sound 8 (...-DUUUNNN louder 3)
 	34,		// sound 9 (slowly higher noise)
-	86		// sound 10
+	75.6,	// sound 10 (new part: dramatic music)
+	86		// sound 11
 ];

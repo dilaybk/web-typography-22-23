@@ -1,21 +1,62 @@
+
 /*
-
 SET-UP CSS:
-1. Basic Mechanics
-2. Voices
-3. First <p> styling
-4. Sounds
-5. Basic Layout
-6. Keyframes
-
+1. Basic Layout
+2. Basic Mechanics
+3. Voices
+4. First <p> styling
+5. Sounds
+6. Details (video etc)
+7. Keyframes
 */
 
 
-/*VRAGEN:
- - Bepaalde voicelines wil ik een andere kleur geven maar hij veranderd niet
- - Het witte dat steeds groter wordt heeft een rare transitie in het begin
- - Video (chatter) laten afspelen op het juiste moment en weer weghalen
-*/
+
+
+
+/************************************************
+Basic layout.
+	Place the video in the center of the page.
+*************************************************/
+
+
+body {
+	display: grid;
+	height: 100vh;
+	margin: 0;
+	justify-content: center;
+
+	background-color: rgb(39, 60, 62);
+
+	animation: bgmusic 72s linear forwards infinite; 
+
+	box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+}
+
+
+#video-container {
+	margin: auto;
+}
+
+
+#video-mask {
+	aspect-ratio: 240.5/100;
+	display: grid;
+	overflow: hidden;
+	align-content: center;
+	transition: 1s;
+}
+
+
+iframe {
+	width: 80vw;
+	height: 53.33333333vw;
+	margin-top: -0.35vw;
+}
+
+
+
+
 
 
 
@@ -29,20 +70,20 @@ Feel free to adjust the defaults to your needs.
 ***********************************************/
 
 
-#closed-captions p {
+p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
-	font-size: 1.1em;
+	font-size: 1.5em;
 	color: white;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	top: 80%;
+	top: 81.5%;
 }
-#closed-captions .on {
+.on {
 	opacity: 1;
 }
-#closed-captions .off {
+.off {
 	transition: .2s;
 	opacity: 0;
 }
@@ -52,136 +93,117 @@ Feel free to adjust the defaults to your needs.
 
 
 
-/****************/
-/**** VOICES ****/
-/****************/
+
+
+/******************/
+
+/****  VOICES  ****/
+
+/******************/
 
 
 .voice1 {
 	font-family: "Brenner Mono", monospace;
 	font-style: normal;
 	font-weight: 600;
-
 }
-
-.voice1:nth-of-type(1) {
-	font-style: italic;
-}
-
-.voice1:nth-of-type(2) {
-	font-style: italic;
-}
-
-
-/*Font color black maar hij wil niet en ik snap niet waarom*/
-
-p.voice1:nth-of-type(18) {
-	color: black;
-}
-
-p.voice1:nth-of-type(19) {
-	color: black;
-}
-
-p.voice1:nth-of-type(20) {
-	color: black;
-}
-
-p.voice1 p:nth-of-type(21) {
-	color: black;
-}
-
-p.voice1:nth-of-type(22) {
-	color: black;
-}
-
-p.voice1:nth-of-type(23) {
-	color: black;
-}
-
-p.voice1:nth-of-type(24) {
-	color: black;
-}
-
-p.voice1:nth-of-type(25) {
-	color: black;
-}
-
-p.voice1:nth-of-type(26) {
-	color: black;
-}
-
-p.voice1:nth-of-type(27) {
-	color: black;
-}
-
-p.voice1:nth-of-type(28) {
-	color: black;
-}
-
-p.voice1:nth-of-type(29) {
-	color: black;
-}
-
-p.voice1:nth-of-type(30) {
-	color: black;
-}
-
-p.voice1:nth-of-type(31) {
-	color: black;
-}
-
 
 
 .voice2 {
-	font-family: "Brenner Sans";
-	font-weight: normal;
-
+	font-family: "Brenner";
+	font-weight: 400;
 }
-
-
-.voice2:nth-of-type(1) {
-	font-style: italic;
-}
-
-.voice2:nth-of-type(2) {
-	font-style: italic;
-}
-
-.voice2:nth-of-type(3) {
-	font-style: italic;
-}
-
-.voice2:nth-of-type(4) {
-	font-style: italic;
-}
-
-
-/*deze wilt niet italic worden en idk why*/
-
-.voice2:nth-of-type(5) {
-	font-style: italic;
-}
-
 
 
 /*"Fuck off skin job"*/
 
 .voice3 {
-	font-family: "Brenner Sans Condensed";
+	font-family: "Brenner Sans light";
 	font-style: italic;
+	font-size: 1em;
 
-	letter-spacing: .6em;
-	animation: foff 1s linear forwards;
+	letter-spacing: .5em;
+	animation: foff 1s ease forwards;
 
+	top: 65%;
+	left: 30%;
+
+	text-shadow: 1em 1em 1em black;
 }
 
 
-/*Deze mag nog anders*/
+
+/*We're done*/
+
 .voice4 {
 	font-family: "Brenner Sans";
-	font-weight: bold;
+	font-weight: 400;
 }
+
+
+
+
+
+
+/*****************/
+/*CAPTION STYLING*/
+/*****************/
+
+
+/*Words not being spoken irt*/
+
+.p0,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7 {
+	font-style: italic;
+}
+
+
+/*color captions when white*/
+.p27,
+.p28 {
+	color: rgb(43, 65, 67);
+}
+
+
+.p29,
+.p30,
+.p31 {
+
+	color: rgb(33 50 52);
+}
+
+
+.p32,
+.p33,
+.p34,
+.p35,
+.p36,
+.p37,
+.p38,
+.p39,
+.p40,
+.p41,
+.p42,
+.p43 {
+	color: rgb(17, 27, 28);
+}
+
+.p42 {
+	font-size: 1.7em;
+}
+
+.p43 {
+	font-size: 1.8em;
+}
+
+
+
 
 
 
@@ -273,6 +295,12 @@ You probably want to change the styling.
 
 
 
+
+
+
+
+
+
 /* **********************************************
 SOUNDS
 	You can style the whole body, or you can 
@@ -285,12 +313,13 @@ SOUNDS
 
 /*Red circle*/
 
-.sound1::before {
+.sound1 {
 	animation-name: redEEEE;
-	animation-duration: 1s;
-	animation-timing-function: ease-in-out;
-	position: absolute;
-	top: 70%;
+	animation-duration: 1.2s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
 	z-index: -1;
 }
 
@@ -319,10 +348,7 @@ SOUNDS
 	transition: all 1s ease;
 	position: absolute;
 	left: 0;
-}
-
-.sound3::after {
-	opacity: 0;
+	bottom: 3em;
 }
 
 
@@ -342,10 +368,6 @@ SOUNDS
 	right: 0;
 	left: 80%;
 
-}
-
-.sound4::after {
-	opacity: 0;
 }
 
 
@@ -377,15 +399,17 @@ SOUNDS
 
 	border-radius: 50%;
 	background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,0) 60%);
-	animation: scaleUp .2s linear, circlegone 1s linear forwards;;
+	animation: scaleUp .2s linear forwards, circlegone 1s linear forwards;
 	position: absolute;
 	right: 0;
 	left: 80%;
 
+	z-index: -1;
+
 }
 
 
-/*kuuuuzzzz 3*/
+/*kuuuuzzzz 3/last one*/
 
 .sound7::before {
 	content: "";
@@ -403,7 +427,7 @@ SOUNDS
 }
 
 
-/*DUUUUUUNN 3*/
+/*DUUUUUUNN 3/last one*/
 
 .sound8::before {
 	content: "";
@@ -413,90 +437,87 @@ SOUNDS
 
 	border-radius: 50%;
 	background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,0) 60%);
-	animation: scaleUp .2s linear, circlegoneloud 1.2s linear forwards;
+	animation: scaleUp .2s linear forwards, circlegoneloud 1s linear forwards;
 	position: absolute;
 	right: 0;
 	left: 80%;
-
-}
-
-
-
-.sound9::before {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-
-	width: 1em;
-	height: 3em;
-	box-shadow: 0 0 50em 10em rgb(255 255 255 / 1);
-
-	animation: whiter 44s linear forwards;
 
 	z-index: -1;
 }
 
 
+/*White noise*/
 
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-/* .sound1 #video-mask {
-	box-shadow: 2em 2em 2em olivedrab;
-} */
+.sound9::before {
+	/* position: absolute;
+	left: 50%;
+	top: 50%; */
+
+	content: "";
+	display: block;
+	width: 10em;
+	height: 10em;
+	left: 50%;
+	top: 50%;
+
+	/* width: 1em;
+	height: 3em; */
+	/* box-shadow: 0 0 50em 10em rgb(255 255 255 / 1); */
+
+	animation: whiter 43s linear forwards, flickering 1s linear infinite;
+
+	z-index: -1;
+}
+
+
+/*smaller frame animation*/
+
+.sound9 iframe {
+	animation: framesmaller 43s linear forwards;
+}
 
 
 
 
-/************************************************
-Basic layout.
-	Place the video in the center of the page.
-*************************************************/
+/*********************/
+/*****  DETAILS  *****/
+/*********************/
 
 
-/* #chatter {
+
+/*****************/
+/*Soundwave video*/
+/*****************/
+
+#chatter {
 	position: absolute;
 	left: 0;
 	top: -5%;
 	width: 110%;
 	height: 110%;
-	z-index: -2;
-} */
+	z-index: -1;
 
+	opacity: 10%;
 
-body {
-	display: grid;
-	height: 100vh;
-	margin: 0;
-	justify-content: center;
+	display: none; /*invisible*/
+}
 
-	background-color: rgb(33 50 52);
+.sound4 #chatter {
+	display: block; /*visible*/
+}
 
-	animation: bgmusic 72s linear forwards infinite; 
-
-	box-shadow: inset 0 0 50em rgba(0, 0, 0, 100%);
+.sound8 #chatter {
+	display: none;
 }
 
 
-#video-container {
-	margin: auto;
+
+
+/*Background animation*/
+
+.sound10 {
+	background-color: rgb(255, 249, 243);
 }
-
-
-#video-mask {
-	aspect-ratio: 240.5/100;
-	display: grid;
-	overflow: hidden;
-	align-content: center;
-	transition: 1s;
-}
-
-
-iframe {
-	width: 80vw;
-	height: 53.33333333vw;
-	margin-top: -0.35vw;
-}
-
-
 
 
 
@@ -506,15 +527,44 @@ iframe {
 /*********************/
 
 
+@keyframes framesmaller {
+	0% {
+		width: 80vw;
+		height: 53.33333333vw;
+		margin-top: -0.35vw;
+	}
+
+	99% {
+		width: 60vw;
+		height: 53.33333333vw;
+		margin-top: -0.35vw;
+	}
+
+	100% {
+		width: 80vw;
+		height: 53.33333333vw;
+		margin-top: -0.35vw;
+	}
+}
+
+
+
+
+
+
 @keyframes foff {
 	0% {
 		font-size: 1em;
 	}
 
 	100% {
-		font-size: 1.2em;
+		font-size: 1.5em;
 	}
 }
+
+
+
+
 
 @keyframes blacktoblue {
 	0% {
@@ -528,14 +578,20 @@ iframe {
 }
 
 
+
+
+
+
 @keyframes redEEEE {
-	0%, 99% { /*van 0 tot 99% blijft hij roze*/
+	0%, 99% {
 		background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,1) 59%);
 	}
 	100% {
-		background: radial-gradient(circle, rgba(168,0,0,1) 0%, rgba(33,50,52,1) 59%);
+		background: rgba(33,50,52,1);
 	}
 }
+
+
 
 
 
@@ -554,6 +610,9 @@ iframe {
 }
 
 
+
+
+
 @keyframes moveLeftToRight {
 	0%   { 
 		left: -10em; 
@@ -563,6 +622,9 @@ iframe {
 		left: 80%; 
 	}
 }
+
+
+
 
 
 @keyframes scaleUp {
@@ -576,6 +638,10 @@ iframe {
 	}
 }
 
+
+
+
+
 @keyframes circlegone {
 
 	0%, 99% {
@@ -586,6 +652,10 @@ iframe {
 		transform: scale(0);
 	}
 }
+
+
+
+
 
 
 @keyframes circlegoneloud {
@@ -600,154 +670,16 @@ iframe {
 }
 
 
+
+
+
+
 @keyframes whiter {
 	0% {
-		box-shadow: 0 0 50em 10em rgb(255 255 255 / 1);
-		opacity: 0.4;
-	}
-
-	5% {
-		opacity: .5;
-	}
-
-	7% {
-		opacity: .6;
-	}
-
-	10% {
-		opacity: .7;
-	}
-
-	12% {
-		opacity: .8;
-	}
-
-	15% {
-		opacity: .7;
-	}
-
-	17% {
-		opacity: .8;
-	}
-
-	20% {
-		opacity: .9;
-	}
-
-	22% {
-		opacity: 1;
-	}
-
-	25% {
-		opacity: .85;
-	}
-
-	27% {
-		opacity: .7;
-	}
-
-	30% {
-		opacity: .8;
-	}
-
-	32% {
-		opacity: .9;
-	}
-
-	35% {
-		opacity: 1;
-	}
-
-	37% {
-		opacity: .9;
-	}
-
-	40% {
-		opacity: .7;
-	}
-
-	43% {
-		opacity: .8;
-	}
-
-	45% {
-		opacity: .9;
-	}
-
-	47% {
-		opacity: .8;
-	}
-
-	50% {
-		opacity: 1;
-	}
-
-	53% {
-		opacity: .8;
-	}
-
-	55% {
-		opacity: 1;
-	}
-
-	57% {
-		opacity: .8;
-	}
-
-	60% {
-		opacity: 1;
-	}
-
-	63% {
-		opacity: .8;
-	}
-
-	65% {
-		opacity: .9;
-	}
-
-	67% {
-		opacity: .8;
-	}
-
-	70% {
-		opacity: .9;
-	}
-
-	77% {
-		opacity: .8;
-	}
-
-	75% {
-		opacity: .9;
-	}
-
-	77% {
-		opacity: 1;
-	}
-
-	80% {
-		opacity: .8;
-	}
-
-	87% {
-		opacity: 1;
-	}
-
-	85%{
-		opacity: .8;
-	}
-
-	87% {
-		opacity: .9;
-	}
-
-	90% {
-		opacity: .8;
-	}
-
-	95% {
-		opacity: .9;
+		top: 40%;
+		left: 40%;
+		box-shadow: 0 0 50em 5em rgb(255 255 255 / 1);
+		opacity: 0;
 	}
 
 	99% {
@@ -760,6 +692,90 @@ iframe {
 		opacity: 0;
 	}
 }
+
+
+
+
+
+
+
+/* @keyframes flickering {
+
+	0% {
+		opacity: 1;
+	}
+
+	25% {
+		opacity: .9;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	75% {
+		opacity: .9;
+	}
+
+	80% {
+		opacity: 1;
+	}
+
+	85% {
+		opacity: .9;
+	}
+
+	90% {
+		opacity: 1;
+	}
+
+	91% {
+		opacity: .9;
+	}
+
+	92% {
+		opacity: 1;
+	}
+
+	93% {
+		opacity: .9;
+	}
+
+	94% {
+		opacity: 1;
+	}
+
+	95% {
+		opacity: .9;
+	}
+
+	96% {
+		opacity: 1;
+	}
+
+	97% {
+		opacity: .9;
+	}
+
+	98% {
+		opacity: 1;
+	}
+
+	99% {
+		opacity: .9;
+	}
+
+	100% {
+		opacity: 1;
+	}
+
+} */
+
+
+
+
+
+
 
 
 
@@ -785,7 +801,7 @@ iframe {
 	}
 
 	15% {
-		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 80%);
 	}
 
 	20% {
@@ -793,7 +809,7 @@ iframe {
 	}
 
 	25% {
-		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 70%);
 	}
 
 	30% {
@@ -801,7 +817,7 @@ iframe {
 	}
 
 	35% {
-		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 90%);
 	}
 
 	40% {
@@ -809,7 +825,7 @@ iframe {
 	}
 
 	45% {
-		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 70%);
 	}
 
 	50% {
@@ -817,7 +833,7 @@ iframe {
 	}
 
 	55% {
-		box-shadow: inset 0 0 50em rgba(0, 0, 0, 0);
+		box-shadow: inset 0 0 50em rgba(0, 0, 0, 80%);
 	}
 
 	60% {
