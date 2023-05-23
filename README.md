@@ -70,10 +70,14 @@ Het zag er uiteindelijk iets te komisch/cartoon-achtig uit en had ook deze feedb
 Ik wilde ook iets doen met de 'background music' die in het begin afspeelt. Nu heb ik heel subtiel een boxshadow toegevoegd aan de body die soort van ademt. Die wilde ik eigenlijk wat intenser hebben.
 Ik heb geprobeerd om ook een box-shadow op het fragment te plaatsen, maar deze was er tot aan het eind en ik wist niet zo goed hoe ik hem er weer eraf moest halen, dus heb ik het er maar gelaten. Ook omdat ik het toch niet zo mooi vond en het niet het effect gaf die ik wilde.
 
+
+
 <details>
-<summary> ***Code dat ik toch niet heb gebruikt*** </summary>
+<summary> Code dat ik toch niet heb gebruikt </summary>
 <img src="./images/boxshadow.png" width="500px" alt="box-shadow code">
 </details>
+
+
 
 Ik heb de shadow op de body toch behouden omdat het toch een beetje het effect gaf die ik wilde laten zien. 
 De schaduwen in de hoek van het scherm zouden het effect moeten geven dat er iets boven hem opdoemt en dat er elk moment iets ergs kan gebeuren. Zijn interne conflict/gevaar volgt hem.
