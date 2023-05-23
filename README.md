@@ -8,8 +8,8 @@ Dat kan visueel sterker.
 
 En dat gaan jullie doen.
 
-## Voortgang
-### Eerste ideeën
+# Voortgang
+## Eerste ideeën
 Ik heb opgelet naar hoe ik me voel tijdens het bekijken van het fragment. Dit wilde ik graag repliceren in het ontwerp.
 
 Eerste ideeën:
@@ -20,9 +20,8 @@ Eerste ideeën:
 - Naast de witte achtergrond wil ik misschien iets doen met het beeld? Dat het trilt of kleiner wordt misschien zodat je je een beetje gespannen voelt
 
 
-### Voortgang
 
-#### Wit Piepgeluid
+## Wit Piepgeluid
 De ideeën hierboven heb ik toegevoegd en had tot daaraan geen screenshots en zo gemaakt, omdat ik het was vergeten. Maar voor een lange tijd heb ik geworsteld met hoe ik het witte steeds groter kon krijgen op het einde met een knipperend effect. 
 
 Ik heb met een `::before` een cirkel toegevoegd en daarmee het witte geïmiteerd. 
@@ -59,7 +58,7 @@ Uiteindelijk heb ik het zo opgelost:
 <img src="./images/whiterlast.png" width="500px" alt="stuk code van oplossing wit">
 
 
-#### Chattering
+## Chattering
 In een deel van het fragment hoor je mensen praten op de achtergrond. Ik wilde hiermee ook iets doen. 
 Als eerst dacht ik eraan om het met code te doen maar ik wist niet hoe dus heb het toen met Adobe After Effects gedaan toen ik hoorde dat dit mocht.
 
@@ -74,7 +73,7 @@ Het zag er uiteindelijk iets te komisch/cartoon-achtig uit en had ook deze feedb
 <img src="./images/soundwavesinfragment.png" width="800px" alt="chatter v2 in fragment">
 
 
-#### Background Music
+## Background Music
 Ik wilde ook iets doen met de 'background music' die in het begin afspeelt. Nu heb ik heel subtiel een boxshadow toegevoegd aan de body die soort van ademt. Die wilde ik eigenlijk wat intenser hebben.
 Ik heb geprobeerd om ook een box-shadow op het fragment te plaatsen, maar deze was er tot aan het eind en ik wist niet zo goed hoe ik hem er weer eraf moest halen, dus heb ik het er maar gelaten. Ook omdat ik het toch niet zo mooi vond en het niet het effect gaf die ik wilde.
 
@@ -91,7 +90,7 @@ Ik heb de shadow op de body toch behouden omdat het toch een beetje het effect g
 De schaduwen in de hoek van het scherm zouden het effect moeten geven dat er iets boven hem opdoemt en dat er elk moment iets ergs kan gebeuren. Zijn interne conflict/gevaar volgt hem.
 
 
-#### Nauwer/Kleiner scherm
+## Nauwer/Kleiner scherm
 Om de opbouw van de spanning bij de baseline test te vergroten heb ik ervoor gekozen om het fragment steeds kleiner te maken. Het is best subtiel. Wanneer het weer terug naar het originele formaat springt, merk je hoeveel het scherm was gekrompen. Je voelt dat je weer soort van normaal kunt ademen nadat het stukje is afgelopen.
 
 <details>
@@ -124,7 +123,7 @@ Om de opbouw van de spanning bij de baseline test te vergroten heb ik ervoor gek
 
 
 
-#### Tekst
+## Tekst
 Voor de main character heb ik getwijfeld of ik _Brenner Regular_ of _Sans_ wilde gebruiken. _Sans_ was het meest toepasselijke omdat hij soort robot-achtig is 'opgevoed' en hij ook zo door het leven gaat. Monotoon maar niet een robot. Maar ik dacht ook dat _Brenner Regular_ juist ook wat meer karakter heeft wat ook toepasselijk is bij hem, omdat hij natuurlijk een 'echt' mens is.
 
 <img src="./images/BrennerRegular.png" alt="Voorbeeld closed captions van KD6-3.7">
@@ -136,7 +135,7 @@ Ik heb het einde van de film niet gezien, maar als hij zichzelf vind als het war
 De stem van de baseline test is in de stijl _Mono_ omdat het toch goed paste bij dat onpersoonlijke, robot-achtige manier van examineren - Ookal klon degene niet per se als een robot. De manier van sluit goed aan bij _Brenner Mono._
 
 
-#### F-Off Skin-Job
+## F-Off Skin-Job
 Dit was moeilijk om vorm te geven omdat hij het soort van hard fluistert. Als het kon zou ik het vormgeven met een dashed font om het fluisteren te imiteren. 
 In plaatst daarvan heb ik de `letter-spacing` vergroot en _Brenner Sans_ gebruikt.
 
@@ -145,9 +144,10 @@ Eerst had ik ervoor gekozen om het ook _Light_ te maken, maar nadat ik er weer n
 
 Dus heb de `font-weight` toen veranderd naar bold.
 
-#### Tweede Fragment
+
+## Tweede Fragment
 Ook heb ik geprobeerd om het tweede fragment 
 
 
-## Oplevering
+# Oplevering
 Het was voor mij best moeilijk om het 'extreem' vorm te geven, omdat het zo'n langzame, mysterieuze en dramatische film was wilde ik dit ook zo behouden. 
