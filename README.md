@@ -81,7 +81,7 @@ Ik heb geprobeerd om ook een box-shadow op het fragment te plaatsen, maar deze w
 
 
 <details>
-<summary> Code dat ik toch niet heb gebruikt </summary>
+<summary> :shipit: Code dat ik toch niet heb gebruikt </summary>
 <img src="./images/boxshadow.png" width="500px" alt="box-shadow code">
 </details>
 
@@ -118,6 +118,17 @@ Om de opbouw van de spanning bij de baseline test te vergroten heb ik ervoor gek
 }
 ```
 
+
+#### Tekst
+Voor de main character heb ik getwijfeld of ik Brenner Regular of Sans wilde gebruiken. Sans was het meest toepasselijke omdat hij soort robot-achtig is 'opgevoed' en hij ook zo door het leven gaat. Heel monotoon. Maar ik dacht ook dat Brenner Regular juist ook wat meer karakter heeft wat ook toepasselijk is bij hem, omdat hij natuurlijk een 'echt' mens is.
+
+<img src="./images/BrennerRegular.png" alt="Voorbeeld closed captions van KD6-3.7">
+
+Als ik door had gegaan met het tweede fragment zou ik misschien hebben geëxperimenteerd met de twee fonts. De baseline test gaat niet goed in het tweede stuk, dus misschien had ik sommige stukjes text in Regular en anderen in Sans hebben gedaan, omdat hij aan het struggelen is. 
+
+Ik heb het einde van de film niet gezien, maar als hij zichzelf vind als het ware zou hij dan alleen in Brenner Regular praten :)
+
+#### Tweede Fragment
 
 
 
