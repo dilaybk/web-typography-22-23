@@ -8,6 +8,9 @@ Dat kan visueel sterker.
 
 En dat gaan jullie doen.
 
+
+
+
 # Voortgang
 ## Eerste ideeën
 Ik heb opgelet naar hoe ik me voel tijdens het bekijken van het fragment. Dit wilde ik graag repliceren in het ontwerp.
@@ -281,11 +284,22 @@ Eerst ging het gewoon in een rondje, maar ik wilde dus dat hij steeds sneller gi
 
 Dit werkte helaas ook niet helemaal goed. Het begin was te langzaam en het einde te snel. Voor dit stuk had ik eigenlijk ook tijd tekort. Als ik meer tijd zou hebben had ik er beter en langer naar gekeken.
 
+<details>
+<summary> :shipit: Video was te lang voor een gif </summary>
+
+Youtube video voor voorbeeld:
 
 [![Video Title](https://img.youtube.com/vi/7fmDbA3aduo/0.jpg)](https://www.youtube.com/watch?v=7fmDbA3aduo&ab_channel=D)
 
-
+</details>
 
 
 # Reflectie
 Het was voor mij best moeilijk om het 'extreem' vorm te geven, omdat het zo'n langzame, mysterieuze en dramatische film was wilde ik dit ook zo behouden. 
+
+Ik vond het wel een leuke opdracht waarbij ik meer ging opletten naar geluiden in films en programma's. Bijna elk geluid geeft een groot effect aan elke scene, terwijl het je misschien vaak niet opvalt. 
+
+Ik heb niet teveel tijd kunnen besteden aan de tekst, omdat ik dit best moeilijk vond. Brenner heeft veel opties maar het was toch moeilijk om het te matchen met de vibe van de film. Ik vond het ook moeilijk om animaties bij de tekst te bedenken, want het moet leesbaar zijn, maar toch iets meer doen dan alleen informatie overbrengen. 
+Hier zou ik ook meer tijd aan besteden als ik die had. 
+
+Deze opdracht liet me eigenlijk een beetje denken aan licht animaties of een immersive environment project maar dan heel klein en kort. Het was uitdagend om een keertje 'outside the box' te ontwerpen.
