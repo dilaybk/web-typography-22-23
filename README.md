@@ -94,6 +94,9 @@ De schaduwen in de hoek van het scherm zouden het effect moeten geven dat er iet
 #### Nauwer/Kleiner scherm
 Om de opbouw van de spanning bij de baseline test te vergroten heb ik ervoor gekozen om het fragment steeds kleiner te maken. Het is best subtiel. Wanneer het weer terug naar het originele formaat springt, merk je hoeveel het scherm was gekrompen. Je voelt dat je weer soort van normaal kunt ademen nadat het stukje is afgelopen.
 
+<details>
+<summary> :shipit: Code voor de opbouw van de spanning op het einde </summary>
+
 `.sound9 iframe { animation: framesmaller 43s linear forwards; }`
 
 ```
@@ -117,19 +120,33 @@ Om de opbouw van de spanning bij de baseline test te vergroten heb ik ervoor gek
 	}
 }
 ```
+</details>
+
 
 
 #### Tekst
-Voor de main character heb ik getwijfeld of ik Brenner Regular of Sans wilde gebruiken. Sans was het meest toepasselijke omdat hij soort robot-achtig is 'opgevoed' en hij ook zo door het leven gaat. Heel monotoon. Maar ik dacht ook dat Brenner Regular juist ook wat meer karakter heeft wat ook toepasselijk is bij hem, omdat hij natuurlijk een 'echt' mens is.
+Voor de main character heb ik getwijfeld of ik _Brenner Regular_ of _Sans_ wilde gebruiken. _Sans_ was het meest toepasselijke omdat hij soort robot-achtig is 'opgevoed' en hij ook zo door het leven gaat. Monotoon maar niet een robot. Maar ik dacht ook dat _Brenner Regular_ juist ook wat meer karakter heeft wat ook toepasselijk is bij hem, omdat hij natuurlijk een 'echt' mens is.
 
 <img src="./images/BrennerRegular.png" alt="Voorbeeld closed captions van KD6-3.7">
 
-Als ik door had gegaan met het tweede fragment zou ik misschien hebben geëxperimenteerd met de twee fonts. De baseline test gaat niet goed in het tweede stuk, dus misschien had ik sommige stukjes text in Regular en anderen in Sans hebben gedaan, omdat hij aan het struggelen is. 
+Als ik door had gegaan met het tweede fragment zou ik misschien hebben geëxperimenteerd met de twee fonts. De baseline test gaat niet goed in het tweede stuk, dus misschien had ik sommige stukjes text in Regular en anderen in _Sans_ hebben gedaan, omdat hij aan het struggelen is. 
 
-Ik heb het einde van de film niet gezien, maar als hij zichzelf vind als het ware zou hij dan alleen in Brenner Regular praten :)
+Ik heb het einde van de film niet gezien, maar als hij zichzelf vind als het ware zou hij dan alleen in _Brenner Regular_ praten :)
+
+De stem van de baseline test is in de stijl _Mono_ omdat het toch goed paste bij dat onpersoonlijke, robot-achtige manier van examineren - Ookal klon degene niet per se als een robot. De manier van sluit goed aan bij _Brenner Mono._
+
+
+#### F-Off Skin-Job
+Dit was moeilijk om vorm te geven omdat hij het soort van hard fluistert. Als het kon zou ik het vormgeven met een dashed font om het fluisteren te imiteren. 
+In plaatst daarvan heb ik de `letter-spacing` vergroot en _Brenner Sans_ gebruikt.
+
+Eerst had ik ervoor gekozen om het ook _Light_ te maken, maar nadat ik er weer naar terug keek leek het iets te elegant. En te licht. Deze feedback kreeg ik ook van een vriend:
+> Het laat me denken aan een L'oreal reclame
+
+Dus heb de `font-weight` toen veranderd naar bold.
 
 #### Tweede Fragment
-
+Ook heb ik geprobeerd om het tweede fragment 
 
 
 ## Oplevering
