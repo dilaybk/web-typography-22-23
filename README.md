@@ -71,7 +71,7 @@ Ik wilde ook iets doen met de 'background music' die in het begin afspeelt. Nu h
 Ik heb geprobeerd om ook een box-shadow op het fragment te plaatsen, maar deze was er tot aan het eind en ik wist niet zo goed hoe ik hem er weer eraf moest halen, dus heb ik het er maar gelaten. Ook omdat ik het toch niet zo mooi vond en het niet het effect gaf die ik wilde.
 
 <details>
-<summary> Code dat ik toch niet heb gebruikt </summary>
+<summary> ***Code dat ik toch niet heb gebruikt*** </summary>
 <img src="./images/boxshadow.png" width="500px" alt="box-shadow code">
 </details>
 
