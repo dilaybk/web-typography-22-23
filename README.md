@@ -26,7 +26,7 @@ Maar op de een of andere manier pakte hij de styling van een cirkel van de scann
 
 Na die struggle heb ik gekeken of ik het witte dat steeds groter werd intenser kon maken. Ik wilde dat hij langzaam steeds groter werd en op het einde lichtelijk een flickering effect zou krijgen. Hieronder zie je een aantal experimenten ermee.
 
-<img src="../images/whitercode.png" width="375px" alt="stuk code">
+<img src="./images/whitercode.png" width="375px" alt="stuk code">
 
 
 
