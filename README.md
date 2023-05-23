@@ -27,19 +27,19 @@ Maar op de een of andere manier pakte hij de styling van een cirkel van de scann
 
 Na die struggle heb ik gekeken of ik het witte dat steeds groter werd intenser kon maken. Ik wilde dat hij langzaam steeds groter werd en op het einde lichtelijk een flickering effect zou krijgen. Hieronder zie je een aantal experimenten ermee.
 
-<img src="./images/whitercode1.png" width="375px" alt="stuk code">
-<img src="./images/whitercode2.png" width="375px" alt="stuk code">
+<img src="./images/whitercode1.png" width="375px" alt="code voor het witte stuk met keyframes">
+<img src="./images/whitercode2.png" width="375px" alt="code voor het witte stuk met keyframes 2">
 
 Met de code hierboven wilde ik het knipperende vormgeven maar uiteindelijk lukte het dus niet en heb het weggehaald.
 
 Wel lukte het witte nu wel - met het groter maken.
 In de afbeeldingen was ik nog bezig met het veranderen van de tekstkleur op de juiste momenten.
-<img src="./images/sswhite.png" width="375px" alt="stuk code">
-<img src="./images/sswhite1.png" width="375px" alt="stuk code">
-<img src="./images/sswhite2.png" width="375px" alt="stuk code">
+<img src="./images/sswhite.png" width="375px" alt="hoe het eruit zag">
+<img src="./images/sswhite1.png" width="375px" alt="hoe het eruit zag met zwarte tekst">
+<img src="./images/sswhite2.png" width="375px" alt="grotere witte cirkel">
 
 Uiteindelijk heb ik het zo opgelost:
-<img src="./images/whiterlast.png" width="375px" alt="stuk code">
+<img src="./images/whiterlast.png" width="375px" alt="stuk code van oplossing wit">
 
 
 
