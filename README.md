@@ -53,7 +53,7 @@ Als eerst dacht ik eraan om het met code te doen maar ik wist niet hoe dus heb h
 
 Ik heb toen in AE het woord 'chatter' een aantal keer ingetypt en dit verschillende styling gegeven (groot, klein, uitgerekt, platgedrukt, condensed etc.) en sommige toen laten bewegen en andere verdwijnen en verschijnen. Uitendelijk zag het er zo uit:
 
-<img src="./images/chatterv1.gif" width="375px" alt="chatter versie 1">
+<img src="./images/chatterv1.gif" width="600px" alt="chatter versie 1">
 
 
 
