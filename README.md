@@ -26,7 +26,11 @@ Eerste ideeën:
 De ideeën hierboven heb ik toegevoegd en had tot daaraan geen screenshots en zo gemaakt, omdat ik het was vergeten. Maar voor een lange tijd heb ik geworsteld met hoe ik het witte steeds groter kon krijgen op het einde met een knipperend effect. 
 
 Ik heb met een `::before` een cirkel toegevoegd en daarmee het witte geïmiteerd. 
-Maar op de een of andere manier pakte hij de styling van een cirkel van de scanner geluiden. En ging van rechtsonder naar het midden animeren. Ik heb helaas geen screenshots hiervan. Uiteindelijk ben ik er wel uitgekomen.
+Maar op de een of andere manier pakte hij de styling van een cirkel van de scanner geluiden. En ging van rechtsonder naar het midden animeren.
+
+<img src=".images/weirdcircle.gif" width="800px" alt="raar cirkel gebeuren">
+
+
 
 Na die struggle heb ik gekeken of ik het witte dat steeds groter werd intenser kon maken. Ik wilde dat hij langzaam steeds groter werd en op het einde lichtelijk een flickering effect zou krijgen. Hieronder zie je een aantal experimenten ermee.
 
@@ -56,6 +60,9 @@ Ik heb toen in AE het woord 'chatter' een aantal keer ingetypt en dit verschille
 <img src="./images/chatterv1.gif" width="800px" alt="chatter versie 1">
 
 Het zag er uiteindelijk iets te komisch/cartoon-achtig uit en had ook deze feedback gekregen van een vriend dus heb dit toen veranderd naar audio lijnen. Dit heb ik ook in Adobe After Effects gemaakt. Ik heb [deze tutorial](https://youtu.be/Xd-CMLPO7Q4) gevolgd.
+
+<img src="./images/soundwavesss.png" width="800px" alt="chatter v2">
+<img src="./images/soundwavesinfragment.png" width="800px" alt="chatter v2 in fragment">
 
 
 
