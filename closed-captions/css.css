@@ -140,7 +140,7 @@ p {
 	font-family: "Brenner Sans";
 	font-style: italic;
 	font-weight: 600;
-	font-size: 1em;
+	font-size: .9em;
 
 	letter-spacing: .7em;
 	animation: foff 1s ease forwards;
@@ -518,7 +518,7 @@ SOUNDS
 /*Background animation in pt2*/
 
 .sound11 {
-	animation: intensemusic 49s ease-in infinite;
+	animation: intensemusic 12s ease-in infinite;
 }
 
 

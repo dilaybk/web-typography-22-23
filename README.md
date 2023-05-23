@@ -134,6 +134,8 @@ Ik heb het einde van de film niet gezien, maar als hij zichzelf vind als het war
 
 De stem van de baseline test is in de stijl _Mono_ omdat het toch goed paste bij dat onpersoonlijke, robot-achtige manier van examineren - Ookal klon degene niet per se als een robot. De manier van sluit goed aan bij _Brenner Mono._
 
+Daarnaast heb ik ervoor gekozen om de tekst in het begin die _niet_ 'in real time' gesproken wordt, een italic te schrijven. De gesproken zinnen staan normaal en hebben haakjes. Dit is meer ter verduidelijking van wat er/hoe het gebeurd.
+
 
 ## F-Off Skin-Job
 Dit was moeilijk om vorm te geven omdat hij het soort van hard fluistert. Als het kon zou ik het vormgeven met een dashed font om het fluisteren te imiteren. 
@@ -186,16 +188,100 @@ Omdat ik steeds `::before` had gebruikt om een cirkel toe te voegen aan de CSS, 
 
 <details>
 <summary> :shipit: Code van de HTML div & CSS </summary>
-<img src="./images/divball.png" alt="code van div">
-<img src="./images/intenseball.png" alt="code van div css">
+<img src="./images/divball.png" width="500px" alt="code van div">
+<img src="./images/intenseball.png" width="500px" alt="code van div css">
 </details>
 
 Dus toen heb ik toch weer de manier gebruikt die ik eerst had ( met `content: ""` en `display: block`).
 Dat zag er zo uit (& het bewoog):
 
-<img src="./images/colorful.png" alt="kleurrijke achtergrond voor fragment">
+<img src="./images/colorful.png" width="500px" alt="kleurrijke achtergrond voor fragment">
 
+###### Troubles
+Eerst ging het gewoon in een rondje, maar ik wilde dus dat hij steeds sneller ging. Met `cubic-bezier` was dit helaas niet genoeg dus ik heb toen de stappen bij de keyframes op het einde kleiner gemaakt:
 
+<details>
+    <summary> :shipit: CSS code voor het tweede fragment </summary>
+
+    ```
+    @keyframes intensemusic {
+
+        0% {
+            background: radial-gradient(at top, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+        25% {
+            background: radial-gradient(at bottom, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+        50% {
+            background: radial-gradient(at left, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        75% {
+            background: radial-gradient(at right, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        77% {
+            background: radial-gradient(at top, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        80% {
+            background: radial-gradient(at bottom, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        83% {
+            background: radial-gradient(at left, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        85% {
+            background: radial-gradient(at right, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        87% {
+            background: radial-gradient(at top, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        90% {
+            background: radial-gradient(at bottom, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        92% {
+            background: radial-gradient(at left, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        94% {
+            background: radial-gradient(at right, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        95% {
+            background: radial-gradient(at top, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        96% {
+            background: radial-gradient(at bottom, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        97% {
+            background: radial-gradient(at left, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        98% {
+            background: radial-gradient(at right, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        99% {
+            background: radial-gradient(at top, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+
+        100% {
+            background: radial-gradient(at bottom, rgb(169 183 165 / 1) 30%, rgb(132 153 149/1));
+        }
+    }
+    ```
+</details>
+
+Dit werkte helaas ook niet helemaal goed. Het begin was te langzaam en het einde te snel. Voor dit stuk had ik eigenlijk ook tijd tekort. Als ik meer tijd zou hebben had ik er beter en langer naar gekeken.
+
+![YT Video](https://youtu.be/7fmDbA3aduo)
 
 
 # Reflectie
