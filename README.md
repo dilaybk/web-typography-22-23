@@ -81,7 +81,7 @@ Om de opbouw van de spanning bij de baseline test te vergroten heb ik ervoor gek
 
 `.sound9 iframe { animation: framesmaller 43s linear forwards; }`
 
-`
+```
 @keyframes framesmaller {
 	0% {
 		width: 80vw;
@@ -101,7 +101,7 @@ Om de opbouw van de spanning bij de baseline test te vergroten heb ik ervoor gek
 		margin-top: -0.35vw;
 	}
 }
-`
+```
 
 
 
