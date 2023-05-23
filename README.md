@@ -281,7 +281,8 @@ Eerst ging het gewoon in een rondje, maar ik wilde dus dat hij steeds sneller gi
 
 Dit werkte helaas ook niet helemaal goed. Het begin was te langzaam en het einde te snel. Voor dit stuk had ik eigenlijk ook tijd tekort. Als ik meer tijd zou hebben had ik er beter en langer naar gekeken.
 
-![YT Video](https://youtu.be/7fmDbA3aduo)
+<iframe width="560" height="315" src="https://youtu.be/7fmDbA3aduo" frameborder="0" allowfullscreen></iframe>
+
 
 
 # Reflectie
