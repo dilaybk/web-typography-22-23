@@ -19,7 +19,10 @@ Eerste ideeën:
 - Op het einde is er een piepgeluid die steeds harder en irritanter wordt - deze merk je pas later op. De film is ook donker dus hoe luider het piepgeluid wordt wil ik een witte achtergrond gebruiken die steeds feller wordt om het geluid uit te beelden. Dit lijkt me vrij irritant om te zien in een bioscoop bijvoorbeeld.
 - Naast de witte achtergrond wil ik misschien iets doen met het beeld? Dat het trilt of kleiner wordt misschien zodat je je een beetje gespannen voelt
 
+
 ### Voortgang
+
+#### Wit Piepgeluid
 De ideeën hierboven heb ik toegevoegd en had tot daaraan geen screenshots en zo gemaakt, omdat ik het was vergeten. Maar voor een lange tijd heb ik geworsteld met hoe ik het witte steeds groter kon krijgen op het einde met een knipperend effect. 
 
 Ik heb met een `::before` een cirkel toegevoegd en daarmee het witte geïmiteerd. 
@@ -34,13 +37,23 @@ Met de code hierboven wilde ik het knipperende vormgeven maar uiteindelijk lukte
 
 Wel lukte het witte nu wel - met het groter maken.
 In de afbeeldingen was ik nog bezig met het veranderen van de tekstkleur op de juiste momenten.
+
 <img src="./images/sswhite.png" width="375px" alt="hoe het eruit zag">
 <img src="./images/sswhite1.png" width="375px" alt="hoe het eruit zag met zwarte tekst">
 <img src="./images/sswhite2.png" width="375px" alt="grotere witte cirkel">
 
 Uiteindelijk heb ik het zo opgelost:
+
 <img src="./images/whiterlast.png" width="375px" alt="stuk code van oplossing wit">
 
+
+#### Chattering
+In een deel van het fragment hoor je mensen praten op de achtergrond. Ik wilde hiermee ook iets doen. 
+Als eerst dacht ik eraan om het met code te doen maar ik wist niet hoe dus heb het toen met Adobe After Effects gedaan toen ik hoorde dat dit mocht.
+
+Ik heb toen in AE het woord 'chatter' een aantal keer ingetypt en dit verschillende styling gegeven (groot, klein, uitgerekt, platgedrukt, condensed etc.) en sommige toen laten bewegen en andere verdwijnen en verschijnen. Uitendelijk zag het er zo uit:
+
+<video src="./images/chatterv1.mp4" width="375px" alt="chatter versie 1">
 
 
 
