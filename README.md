@@ -34,8 +34,16 @@ Maar op de een of andere manier pakte hij de styling van een cirkel van de scann
 
 Na die struggle heb ik gekeken of ik het witte dat steeds groter werd intenser kon maken. Ik wilde dat hij langzaam steeds groter werd en op het einde lichtelijk een flickering effect zou krijgen. Hieronder zie je een aantal experimenten ermee.
 
+
+<details>
+
+<summary> Code voor knipperen wit stuk </summary>
+
 <img src="./images/whitercode1.png" width="500px" alt="code voor het witte stuk met keyframes">
 <img src="./images/whitercode2.png" width="500px" alt="code voor het witte stuk met keyframes 2">
+
+</details>
+
 
 Met de code hierboven wilde ik het knipperende vormgeven maar uiteindelijk lukte het dus niet en heb het weggehaald.
 
