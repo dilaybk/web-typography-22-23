@@ -142,11 +142,45 @@ In plaatst daarvan heb ik de `letter-spacing` vergroot en _Brenner Sans_ gebruik
 Eerst had ik ervoor gekozen om het ook _Light_ te maken, maar nadat ik er weer naar terug keek leek het iets te elegant. En te licht. Deze feedback kreeg ik ook van een vriend:
 > Het laat me denken aan een L'oreal reclame
 
-Dus heb de `font-weight` toen veranderd naar bold.
+Dus heb de `font-weight` toen veranderd naar _Medium_.
+
+###### Troubles
+Ik wilde ook dat hij van links naar rechts in beeld kwam (omdat de man die het zegt ineens vanuit de linkerkant komt) maar dit wilde hij alleen doen wanneer ik het scherm refreshte en niet wanneer je hem liet afspelen.
+
+<img src="./images/foffeind.gif" alt="gif van 'fuck off skin-job'">
+
+Wat je hieronder ziet is nadat ik had gesaved: `cmd+s`
+
+<img src="./images/foffonly.gif" alt="scrolling into screen">
+
+Hij werkte eigenlijk dus wel maar op de een of andere manier wilde hij het niet doen wanneer de tekst in het scherm kwam.
+
+<details>
+<summary> :shipit: Code van dat stuk </summary>
+Ik heb ook geprobeerd om het alleen op .voice3 te doen en alleen op .p6, maar dat lukte ook niet.
+
+```
+.p6.voice3{
+	font-family: "Brenner Sans";
+	font-style: italic;
+	font-weight: 600;
+	font-size: 1em;
+
+	letter-spacing: .7em;
+	animation: foff 1s ease forwards;
+
+	top: 65%;
+	left: 30%;
+
+	text-shadow: 1em 1em 1em black;
+}
+```
+
+</details>
 
 
 ## Tweede Fragment
-Ook heb ik geprobeerd om het tweede fragment 
+Ook heb ik geprobeerd om het tweede fragment te 
 
 
 # Oplevering

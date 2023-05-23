@@ -110,13 +110,10 @@ p {
 
 
 .voice2 {
-	font-family: "Brenner";
+	font-family: "Brenner Sans";
 	font-weight: 400;
+	font-size: 1.7em;
 }
-
-
-/*"Fuck off skin job"*/
-
 
 
 
@@ -136,6 +133,7 @@ p {
 /*CAPTION STYLING*/
 /*****************/
 
+
 /* fuck off skin job */
 
 .p6.voice3{
@@ -144,7 +142,7 @@ p {
 	font-weight: 600;
 	font-size: 1em;
 
-	letter-spacing: .6em;
+	letter-spacing: .7em;
 	animation: foff 1s ease forwards;
 
 	top: 65%;
