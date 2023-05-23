@@ -53,7 +53,11 @@ Als eerst dacht ik eraan om het met code te doen maar ik wist niet hoe dus heb h
 
 Ik heb toen in AE het woord 'chatter' een aantal keer ingetypt en dit verschillende styling gegeven (groot, klein, uitgerekt, platgedrukt, condensed etc.) en sommige toen laten bewegen en andere verdwijnen en verschijnen. Uitendelijk zag het er zo uit:
 
-<img src="./images/chatterv1.gif" width="600px" alt="chatter versie 1">
+<img src="./images/chatterv1.gif" width="800px" alt="chatter versie 1">
+
+Het zag er uiteindelijk iets te komisch/cartoon-achtig uit en had ook deze feedback gekregen van een vriend dus heb dit toen veranderd naar audio lijnen. Dit heb ik ook in Adobe After Effects gemaakt. Ik heb [deze tutorial](https://youtu.be/Xd-CMLPO7Q4) gevolgd.
+
+
 
 
 
