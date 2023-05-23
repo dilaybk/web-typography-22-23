@@ -37,7 +37,7 @@ Na die struggle heb ik gekeken of ik het witte dat steeds groter werd intenser k
 
 <details>
 
-<summary> Code voor knipperen wit stuk </summary>
+<summary> :shipit: Code voor knipperen wit stuk </summary>
 
 <img src="./images/whitercode1.png" width="500px" alt="code voor het witte stuk met keyframes">
 <img src="./images/whitercode2.png" width="500px" alt="code voor het witte stuk met keyframes 2">
